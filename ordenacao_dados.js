@@ -14,13 +14,4 @@ function bolha(vetor, total) {
   }
 }
 
-function imprimir(vetor, total) {
-  let j;
-  for (j = 0; j < total; j++) {
-    console.log(vetor[j]);
-  }
-  console.log("\n");
-}
-
 bolha(vetor, vetor.length);
-imprimir(vetor, vetor.length);
